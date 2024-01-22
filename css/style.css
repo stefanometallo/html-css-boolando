@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .cont {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  /* HEADER */
+  header {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #ff6900;
+    -webkit-box-shadow: 0px 4px 12px -4px #000000;
+    box-shadow: 0px 4px 12px -4px #000000;
+  }
+  
+  nav {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    display: block;
+  }
+  
+  /* MAIN */
+  main {
+    padding-top: 120px;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc((100% - 40px) / 3);
+  }
+  
+  /* top */
+  .top {
+    position: relative;
+  }
+  
+  .top img {
+    width: 100%;
+    display: block;
+  }
+  
+  img.img2 {
+    display: none;
+  }
+  
+  .card:hover .img1 {
+    display: none;
+  }
+  
+  .card:hover .img2 {
+    display: block;
+  }
+  
+  
+  
+  .preferito {
+    top: 10px;
+    right: 0;
+    padding: 15px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .preferito:hover {
+    color: red;
+  }
+  
+  .sconto,
+  .sostenibile {
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .sconto {
+    background-color: red;
+  }
+  
+  .sostenibile {
+    background-color: green;
+  }
+  
+  /* bottom */
+  .bottom h6 {
+    font-size: 16px;
+  }
+  
+  .bottom > h6 {
+    font-weight: normal;
+  }
+  
+  h5 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .prezzo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .red {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .line-through {
+    font-weight: normal;
+    text-decoration: line-through;
+  }
+  
